@@ -1,0 +1,27 @@
+{
+  "name": "javascript-test-automation",
+  "version": "1.0.0",
+  "description": "Invia Page Object Design & Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.spec.js --reporter mochawesome --reporter-options autoOpen=true",
+    "lint": "eslint . --cache --fix"
+  },
+  "author": "Jay Kishore Duvvuri",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^6.2.2",
+    "eslint-plugin-mocha": "^6.1.0",
+    "lint-staged": "^9.2.5",
+    "mocha": "^6.2.0",
+    "mochawesome": "^3.0.3",
+    "prettier": "^1.18.2",
+    "selenium-webdriver": "^4.0.0-alpha.5"
+  },
+  "dependencies": {
+    "chromedriver": "^78.0.1",
+    "tslib": "^1.10.0"
+  }
+}
