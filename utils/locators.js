@@ -5,7 +5,7 @@ module.exports = {
   baseUrl: "https://snapengage-qa.appspot.com/signin?to=hub",
   email : "email",
   emailTxt : "pedroalmodovar@test.com",
-  passowrd : "password",
+  password : "password",
   passwordTxt : "1q2w3e",
   signIn : "div > input[type=submit]",
   title : "Hub",
