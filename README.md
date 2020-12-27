@@ -1,4 +1,4 @@
-# WebDriverJs - Selenium & JavaScript With Page Object Model
+# WebDriverJs - Selenium WebDriver & JavaScript With Page Object Model
 
 Design Page Objects and run Tests
 
